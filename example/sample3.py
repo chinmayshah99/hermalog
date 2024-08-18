@@ -1,10 +1,6 @@
 import unittest
 import logging
-from hermalog.customLogging import (
-    CustomLogging,
-    CustomLoggingConfiguration,
-    BaseLoggingConfiguration,
-)
+from hermalog import CustomLogging, CustomLoggingConfiguration, BaseLoggingConfiguration
 
 
 class TestCustomLogging(unittest.TestCase):

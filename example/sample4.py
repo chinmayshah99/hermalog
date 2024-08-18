@@ -1,5 +1,4 @@
-from hermalog import CustomLogging
-from hermalog import CustomLoggingConfiguration, BaseLoggingConfiguration
+from hermalog import CustomLogging, CustomLoggingConfiguration, BaseLoggingConfiguration
 import logging
 
 
