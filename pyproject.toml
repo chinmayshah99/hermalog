@@ -1,9 +1,9 @@
 [project]
 name = "hermalog"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple logging library for Python"
 authors = [
-    { name = "Chinmay Shah", email = "chinmayshah3899@gmail.com" }
+    { name = "Chinmay Shah", email = "hi@chinmayshah.xyz" }
 ]
 dependencies = []
 readme = "README.md"
@@ -15,7 +15,9 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = []
+dev-dependencies = [
+    "pytest>=8.3.2",
+]
 
 [tool.hatch.metadata]
 allow-direct-references = true
